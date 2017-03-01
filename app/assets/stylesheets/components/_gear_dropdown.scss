@@ -1,6 +1,5 @@
 #gear-dropdown {
   position: relative;
-  background: white;
   right: 200px;
   top: 5px;
   z-index: 1000;
@@ -15,10 +14,6 @@
   font-weight: normal;
   padding: 10px 10px;
   width: 200px;
-}
-
-.gear-dropdown > li {
-  background-color: white;
 }
 
 .gear-dropdown > li > ul > * {
