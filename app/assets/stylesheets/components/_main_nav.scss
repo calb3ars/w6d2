@@ -1,0 +1,64 @@
+.main-nav {
+  text-transform: uppercase;
+  font-family: $sans-serif;
+  font-weight: bold;
+  padding: 10px 0px;
+  border-bottom: 1px solid $light-gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  padding: 10px;
+  align-items: center;
+  display: inline-block;
+  border-radius: 3px;
+  margin-right: 25px;
+}
+
+.left-nav > ul li:last-child {
+  background: $lightest-gray;
+}
+
+.right-nav > ul > li {
+  background: $dark-blue;
+  color: $lightest-gray;
+  border-radius: 3px;
+  padding: 7px;
+  justify-content: space-around;
+  align-items: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.right-nav > ul > li:last-of-type {
+  background: $lightest-gray;
+  color: black;
+  font-size: 17px;
+  width: 15px;
+  height: 15px;
+}
+
+.right-nav > ul > li:hover {
+  background: $darkest-blue;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background: $light-gray;
+}
+
+.left-nav span {
+  padding-left: 10px;
+}
+
+
+.right-nav i {
+  height: 18px;
+}

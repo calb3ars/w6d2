@@ -1,0 +1,33 @@
+.sections {
+  font-family: $sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.sections-subnav {
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid $gray;
+}
+
+.sections-subnav ul {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sections-subnav ul li {
+  margin: 10px 10px;
+}
+
+.sections-subnav ul li:hover {
+  background: $light-gray;
+}
+
+.sections-subnav ul li:last-child {
+  text-decoration: underline;
+}
